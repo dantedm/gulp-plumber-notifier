@@ -9,7 +9,7 @@
 ![](https://raw.githubusercontent.com/Pleasurazy/gulp-plumber-notifier/master/img2.jpg)
 
 ![](https://raw.githubusercontent.com/Pleasurazy/gulp-plumber-notifier/master/img1.jpg)
-
+```js
 //////////////////////////////////////////////////
 // Styles Task                                  //
 // + SASS -> CSS                                //
@@ -17,7 +17,7 @@
 // + Add vendor prefixes                        //
 // + Minify                                     //
 //////////////////////////////////////////////////
-```js
+
 gulp.task('styles', function () {
     return gulp
         .src('scss/**/*.scss')
